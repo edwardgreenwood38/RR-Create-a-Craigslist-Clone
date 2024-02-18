@@ -1,4 +1,8 @@
 // Import data
+import Sidebar from './Sidebar.js'
+import Searchbar from './Searchbar'
+import Directory from './Directory'
+import Gallery from './Gallery'
 
 // Import components
 import './App.css';
@@ -8,7 +12,10 @@ function App(){
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        {/* Your content will go here! */}
+        <Sidebar />
+        <Searchbar />
+        <Directory />
+        <Gallery />
       </div>
     </div>
   );
