@@ -12,10 +12,19 @@ function App(){
     <div>
       <h1>craigslist</h1>
       <div className="App">
-        <Sidebar />
-        <Searchbar />
-        <Directory />
-        <Gallery />
+        <div className="sideBar">
+          <Sidebar />
+        </div>
+        <div className="searchbar">
+          <Searchbar />
+        </div>
+        <div className="directory">
+          <Directory />
+        </div>
+        <div className="gallery">
+          <Gallery />
+        </div>
+        
       </div>
     </div>
   );

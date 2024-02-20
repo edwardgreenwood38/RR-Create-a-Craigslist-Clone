@@ -6,9 +6,19 @@ function Gallery() {
     return (
         <div>
             <h1>Gallery</h1>
-            <Posting />
+            <div className="posting">
+                <Posting />
+            </div>
+            <div className="posting">
+                <Posting />
+            </div>
+            <div className="posting">
+                <Posting />
+            </div>
+            <div className="posting">
+                <Posting />
+            </div>
         </div>
-        
     )
 };
 
